@@ -1,0 +1,59 @@
+.footer{
+    background: linear-gradient(248.66deg, #1B0600 0%, #331500 100%);
+  
+}
+.footer__content{
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    max-width: 1180px;
+    margin: auto;
+    padding: 80px 54px 80px 54px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.footer__contact{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    text-align: left;
+    color: white;
+}
+
+.message_email{
+    
+    color: white;
+}
+
+.geo__location{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    text-align: left;
+    color: white;
+    max-width: 290px;
+}
+
+.full-name{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    text-align: left;
+    color:white;
+    width: 248px;
+}
+
+.phone__number{
+    color: white;
+}

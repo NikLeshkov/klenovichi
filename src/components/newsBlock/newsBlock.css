@@ -1,0 +1,57 @@
+.news-block{
+    width: 100%;
+    border:solid 3px #D9D9D9;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.news-block[data-height="lg"]{
+    height: 137px;
+}
+
+.news-block[data-height="md"]{
+    height: 120px;
+}
+
+.day{
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 77.45px;
+    color: black;
+    width: 80px;
+}
+
+.month-years{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    color: black;
+}
+
+.news-block__content{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.info{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: left;
+    color: black;
+    text-decoration: underline;
+    padding-right: 40px;
+}
+
+.news-block:hover{
+    background-color: #D9D9D9;
+    cursor:pointer;
+    transition: 0.5s;
+}
+

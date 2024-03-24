@@ -1,0 +1,56 @@
+
+.section__about-as {
+    background: #F4F4F4;
+}
+
+.wrapper__about {
+    max-width: 1180px;
+    margin: auto;
+    padding: 80px 50px 80px 50px;
+}
+
+.title__text .text{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58.09px;
+    text-align: left;
+}
+
+.title__rectangle{
+    width: 765px;
+    height: 6px;
+    background: #DFDFDF;
+}
+
+.about-as__title{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.about-as__description{
+    max-width: 470px;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24.2px;
+
+}
+
+.about-as__content{
+    display: flex;
+    column-gap: 50px;
+    padding-top: 80px;
+    align-items: center;
+}
+
+.e-mail{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}

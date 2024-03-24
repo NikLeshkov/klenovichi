@@ -1,0 +1,27 @@
+.title__text{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58.09px;
+    text-align: left;
+    color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.new-page__news{
+    max-width: 1180px;
+}
+
+.new-page__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 97px;
+}
+
+.new-page__news{
+    display: flex;
+    flex-direction:column;
+    row-gap: 30px;
+}

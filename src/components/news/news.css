@@ -1,0 +1,28 @@
+.section__news{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.text__title{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58.09px;
+    text-align: left;
+    color: black;
+}
+
+.news__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 60px;
+}
+
+.news__information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    width: 704px;
+}

@@ -1,0 +1,37 @@
+.title__name .title { 
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 77.45px;
+    text-align: left;
+    margin: 0;
+    color: white;
+}
+
+.sub-title__name .sub-title { 
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    text-align: left;    
+    margin: 0;
+    color: white;
+}
+
+.label__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1180px;
+    padding-left: 50px;
+    padding-right: 50px;
+    column-gap: 151px;
+    margin: auto;
+    padding-bottom: 147px;
+}
+
+.organization__name{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}

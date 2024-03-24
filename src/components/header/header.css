@@ -1,0 +1,34 @@
+.header{
+    background: linear-gradient(248.66deg, #1B0600 0%, #331500 100%);
+}
+
+.container{
+    max-width: 1180px;
+    max-height: 64px;
+    margin: auto;
+    padding-TOP: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    column-gap: 30px;
+}
+
+.nav-bar_element{
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.15px;
+    text-align: left;
+    color: white;
+}

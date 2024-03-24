@@ -1,0 +1,10 @@
+.info-page__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.info-page__info{
+    width: 1180px;
+    padding-bottom: 80px;
+}

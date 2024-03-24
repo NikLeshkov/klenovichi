@@ -1,0 +1,22 @@
+.vacancies__title{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58.09px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.vacancies__page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vacancies__content{
+    padding-bottom: 80px;
+    width: 1180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
